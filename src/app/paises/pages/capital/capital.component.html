@@ -1,0 +1,10 @@
+<div class="row">
+    <h2>Por Capital</h2>
+      <div class="col">
+         <app-input (onEnter)="buscar($event)"
+         placeholder="Buscar Capital"
+         ></app-input>
+      </div>
+  </div>
+
+<app-pais-tabla [paises]="capital" [error]="error"></app-pais-tabla>

@@ -1,0 +1,158 @@
+
+  {
+    "usuarios": [
+      {
+        "id": 1,
+        "usuario": "Leo Messi",
+        "email": "messi123@gmail.com"
+      }
+    ],
+    "jugadores": [
+      { 
+        "id": 1,
+        "nombre": "Dibu Martinez",
+        "posicion": "Arquero",
+        "estadisticas": "Penales atajados"
+      },
+      { 
+        "id": 2,
+        "nombre": "Gerónimo Rulli",
+        "posicion": "Arquero",
+        "estadisticas": ""
+      },
+      { 
+        "id": 3,
+        "nombre": "Franco Armani",
+        "posicion": "Arquero",
+        "estadisticas": ""
+      },
+      { 
+        "id": 4,
+        "nombre": "Germán Pezzella",
+        "posicion": "Defensa central",
+        "estadisticas": ""
+      },
+      { 
+        "id": 5,
+        "nombre": "Nicolás Otamendi",
+        "posicion": "Defensa central",
+        "estadisticas": ""
+      },
+      { 
+        "id": 6,
+        "nombre": "Lisandro Martinez",
+        "posicion": "Defensa central",
+        "estadisticas": ""
+      },
+      { 
+        "id": 7,
+        "nombre": "Foyth",
+        "posicion": "Defensa lateral",
+        "estadisticas": ""
+      },
+      { 
+        "id": 8,
+        "nombre": "Montiel",
+        "posicion": "Defensa lateral",
+        "estadisticas": "Penal más importante del mundo"
+      },
+      { 
+        "id": 9,
+        "nombre": "Nahuel Molina Lucero",
+        "posicion": "Defensa lateral",
+        "estadisticas": ""
+      },
+      { 
+        "id": 10,
+        "nombre": "Lionel Messi",
+        "posicion": "Delantero",
+        "estadisticas": ""
+      },
+      { 
+        "id": 11,
+        "nombre": "Ángel Dí María",
+        "posicion": "Delantero",
+        "estadisticas": ""
+      },
+      { 
+        "id": 12,
+        "nombre": "El huevo Acuña",
+        "posicion": "Defensa lateral",
+        "estadisticas": ""
+      },
+      { 
+        "id": 13,
+        "nombre": "Nicolás Tagliafico",
+        "posicion": "Defensa lateral",
+        "estadisticas": ""
+      },
+      { 
+        "id": 14,
+        "nombre": "Cuti Romero",
+        "posicion": "Defensa central",
+        "estadisticas": ""
+      },
+      { 
+        "id": 15,
+        "nombre": "Leandro Paredes",
+        "posicion": "Mediocampista",
+        "estadisticas": ""
+      },
+      { 
+        "id": 16,
+        "nombre": "Alejandro Gomez",
+        "posicion": "Mediocampista",
+        "estadisticas": ""
+      },
+      { 
+        "id": 17,
+        "nombre": "Guido Rodríguez",
+        "posicion": "Mediocampista",
+        "estadisticas": ""
+      },
+      { 
+        "id": 18,
+        "nombre": "Enzo Fernández",
+        "posicion": "Mediocampista",
+        "estadisticas": ""
+      },
+      { 
+        "id": 19,
+        "nombre": "Alexis McAllister",
+        "posicion": "Mediocampista",
+        "estadisticas": ""
+      },
+      { 
+        "id": 20,
+        "nombre": "Paulo Dybala",
+        "posicion": "Delantero",
+        "estadisticas": ""
+      },
+      { 
+        "id": 21,
+        "nombre": "Thiago Almada",
+        "posicion": "Mediocampista",
+        "estadisticas": ""
+      },
+      { 
+        "id": 22,
+        "nombre": "Lautaro Martinez",
+        "posicion": "Delantero",
+        "estadisticas": ""
+      },
+      { 
+        "id": 23,
+        "nombre": "Exequiel Palacions",
+        "posicion": "Mediocampista",
+        "estadisticas": ""
+      },
+      { 
+        "id": 24,
+        "nombre": "Rodrigo De Paul",
+        "posicion": "Mediocampista",
+        "estadisticas": ""
+      }
+    ]
+  } 
+
+

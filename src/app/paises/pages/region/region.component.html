@@ -1,0 +1,63 @@
+
+        <div [ngSwitch]="regionActiva">
+            <ng-container *ngSwitchCase="'EU'">
+              <h2>Por Región Unión Europea (EU):</h2>
+            </ng-container>
+            <ng-container *ngSwitchCase="'EFTA'">
+              <h2>Por Región Asociación Europea de Libre Comercio (EFTA):</h2>
+            </ng-container>
+            <ng-container *ngSwitchCase="'CARICOM'">
+              <h2>Por Región Comunidad del Caribe (CARICOM):</h2>
+            </ng-container>
+            <ng-container *ngSwitchCase="'PA'">
+                <h2>Por Región: Alianza del Pacífico (PA)</h2>
+              </ng-container>
+              <ng-container *ngSwitchCase="'AU'">
+                <h2>Por Región: Unión Africana (AU)</h2>
+              </ng-container>
+              <ng-container *ngSwitchCase="'EEU'">
+                <h2>Por Región: Unión de Naciones Suramericanas (EEU) </h2>
+              </ng-container>
+              <ng-container *ngSwitchCase="'USAN'">
+                <h2>Por Región: Unión Económica Euroasiática (USAN)</h2>
+              </ng-container>
+              <ng-container *ngSwitchCase="'AL'">
+                <h2>Por Región: Alianza para el Progreso (AL) </h2>
+              </ng-container>
+              <ng-container *ngSwitchCase="'ASEAN'">
+                <h2>Por Región: Asociación de Naciones del Sudeste Asiático (ASEAN) </h2>
+              </ng-container>
+              <ng-container *ngSwitchCase="'CAIS'">
+                <h2>Por Región: Comunidad Andina (CAIS) </h2>
+            </ng-container>
+                <ng-container *ngSwitchCase="'CEFTA'">
+                <h2>Por Región: Acuerdo de Libre Comercio de Europa Central (CEFTA) </h2>
+            </ng-container>
+                <ng-container *ngSwitchCase="'NAFTA'">
+                <h2>Por Región: Tratado de Libre Comercio de América del Norte (NAFTA) </h2>
+            </ng-container>
+                <ng-container *ngSwitchCase="'SAARC'">
+                <h2>Por Región:  Asociación de Naciones del Asia Meridional (SAARC)</h2>
+              </ng-container>
+            <ng-container *ngSwitchDefault>
+                <h2>Por Región </h2>
+              </ng-container>
+            </div>
+
+<div class="row">
+    <div class="col">
+        <button 
+        *ngFor="let region of regiones"
+        (click)="activarRegion(region.siglas)"
+        [class]="(region.siglas === regionActiva) ? 'btn btn-info' : 'btn btn-outline-info'"
+        >
+        {{region.nombreCompleto}}
+        </button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <app-pais-tabla [paises]="paises"></app-pais-tabla>
+    </div>
+</div>

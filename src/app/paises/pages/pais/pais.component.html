@@ -1,0 +1,13 @@
+
+
+<div class="row">
+  <h2>Por País</h2>
+    <div class="col">
+       <app-input (onEnter)="buscar($event)"
+        (onDebounce)="recomendacion()"
+        placeholder="Buscar País"
+       ></app-input>
+    </div>
+</div>
+
+<app-pais-tabla [paises]="paises" [error]="error"></app-pais-tabla>
